@@ -43,3 +43,12 @@ export default CustomCamera
 ```
 this code helped me find the position in which i wanted the model to be in there were 2 parts euler and vector i put in vector and that was it did not try euler dont know what happens
 
+```
+<EffectComposer>
+  <DepthOfField
+    focusDistance={0.001}
+    focalLength={0.02}
+    bokehScale={1.0}/>
+</EffectComposer>
+```
+i don't correctly know how to mess with these values 
