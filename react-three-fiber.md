@@ -52,3 +52,12 @@ this code helped me find the position in which i wanted the model to be in there
 </EffectComposer>
 ```
 i don't correctly know how to mess with these values 
+
+
+```            
+<Backdrop castShadow floor={2} position={[0, -0.5, -3]} scale={[50, 10, 4]}>
+  <meshStandardMaterial color="#353540" envMapIntensity={0.1} />
+</Backdrop>
+
+```
+this creates a background for the model that looks like a paper bend stuff like that use if necessary will do more research on it later
