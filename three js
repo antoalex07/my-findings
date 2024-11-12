@@ -1,0 +1,24 @@
+to create a website to just work on three js u can create a folder with just an index.html and main.js files instead of creating a whole react or vite web application the index.html page should be set as follows
+`
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+        <script type="importmap">
+            {
+              "imports": {
+                "three": "https://unpkg.com/three/build/three.module.js",
+                "jsm/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+              }
+            }
+          </script>
+		<script type="module" src="/main3.js"></script>
+	</body>
+</html>
+`
