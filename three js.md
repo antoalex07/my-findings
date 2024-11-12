@@ -109,7 +109,7 @@ there is also another line of code that sets the camera in a given position
 
 ``` camera.position.set(x, y, z) ```
 
-##setting it all as 0## 
+## setting it all as 0 ## 
 	the camera is kinda zoomed in on the center of my object 
 
 ## increasing only the value of x ##
@@ -124,7 +124,7 @@ there is also another line of code that sets the camera in a given position
 
 in each case the scene shifted 90 degrees to that side and when the value increases the scene stretches in to the z direction
 
-##increasing only the value of z ##
+## increasing only the value of z ##
 	set as 1 u face the scene set as -1 the scene and u face the same direction, not at each other "to the same direction"
 	set as 10 scene moves backwards stays in the centre itself 
 	set as -10 scene and u face the same direction but scene is infront of u, u can see the backside of your frame
