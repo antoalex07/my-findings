@@ -129,3 +129,6 @@ in each case the scene shifted 90 degrees to that side and when the value increa
 	set as 10 scene moves backwards stays in the centre itself 
 	set as -10 scene and u face the same direction but scene is infront of u, u can see the backside of your frame
 
+## increasing x and y at once ##
+	
+
