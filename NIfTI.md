@@ -33,3 +33,8 @@ the nifti file i have contains a int16array we are going to convert that to a fl
 ```
 
 if you run this code as such you will get the whole nifti image as such with each pixel in the matrix detailed however it will take too much gpu to render that much content and your system will show this stupid message that page is not responding and all in chrome so i hade to do it slice by slice first i took 18 slices and generated a portion of it as i continued since there were too many i had to reduce the number of slices in it 
+
+### Marching Cubes Algorithm ###
+instead of doing the above method where u have to traverse through one value at a time determine whether it is in the intensity range and assign a cube of dimensions 1, 1, 1 on it and copulating that with it u can try the marching cubes algorithm where you will take 8 values at once find whether there are three matching intensities in those and form a triangle in it and copulate the entire matrix with it and i am gonna do it myself without the help of chatgpt i may or may not be back in a month see yaa gotta form the algorithm
+
+
