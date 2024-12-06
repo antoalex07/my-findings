@@ -38,3 +38,5 @@ if you run this code as such you will get the whole nifti image as such with eac
 instead of doing the above method where u have to traverse through one value at a time determine whether it is in the intensity range and assign a cube of dimensions 1, 1, 1 on it and copulating that with it u can try the marching cubes algorithm where you will take 8 values at once find whether there are three matching intensities in those and form a triangle in it and copulate the entire matrix with it and i am gonna do it myself without the help of chatgpt i may or may not be back in a month see yaa gotta form the algorithm
 
 
+the marching cubes algorithm generated a 3d image of the nifti file that i had then i applied a gaussian filter over it to make the model more smooth currently i have rendered over `226824 triangles` to form this model
+
